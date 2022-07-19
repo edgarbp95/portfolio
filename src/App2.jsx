@@ -6,6 +6,9 @@ import EjemploRef from './Components/EjemploRef'
 import Navbar from './Components/Navbar/Navbar'
 import ProjectsCollection from './Components/Projects/ProjectsCollection'
 import SocialMenu from './Components/SocialMenu/SocialMenu'
+import iconInstagram from "/src/Images/instagram-original.svg"
+import iconGithub from "/src/Images/github-original.svg"
+import iconLinkedin from "/src/Images/linkedin.svg"
 
 const App2 = () => {
   
@@ -71,19 +74,19 @@ const App2 = () => {
       <div className='w-2/3 flex gap-2 mx-auto justify-center py-4'>
             <div className={`bg-customIndigo w-12 h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer`}>
                 
-                <a href="https://www.instagram.com/edgarbp95" target="_blank"><img src="/src/Images/instagram-original.svg" alt="" /></a>
+                <a href="https://www.instagram.com/edgarbp95" target="_blank"><img src={iconInstagram} alt="" /></a>
             </div>
             <a href="https://github.com/edgarbp95?tab=repositories" target="_blank">
             <button className={`bg-customIndigo w-12 h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer `}>
                 <i className="lni lni-github-original">
-                    <img src="/src/Images/github-original.svg" alt="" />
+                    <img src={iconGithub} alt="" />
                 </i>
             </button>
             </a>
             <a href="https://www.linkedin.com/in/edgarbp95/ " target="_blank">
                 <button className={`bg-customIndigo w-12 h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer`}>
                     <i className="lni lni-linkedin">
-                        <img className="linke" src="/src/Images/linkedin.svg" alt="" />
+                        <img className="linke" src={iconLinkedin} alt="" />
                     </i>
                 </button>
             </a>
