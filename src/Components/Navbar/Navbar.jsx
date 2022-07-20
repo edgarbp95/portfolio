@@ -14,9 +14,9 @@ const Navbar = ({addClass,openMenu,active}) => {
         </div>
         <div className='flex'>
             <ul className='flex gap-20 text-base text-white font-normal nav_menu items-center sm:hidden'>
-                <li className='cursor-pointer nav_menu_option relative pb-2'>SOBRE MI</li>
-                <li className='cursor-pointer nav_menu_option relative pb-2'>PROYECTOS</li>
-                <li className='cursor-pointer nav_menu_option relative pb-2'>CONTACTO</li>
+                <a className="no-underline hover:no-underline hover:text-white" href="#about"><li className='cursor-pointer nav_menu_option relative pb-2'>SOBRE MI</li></a>
+                <a className="no-underline hover:no-underline hover:text-white" href="#projects"><li className='cursor-pointer nav_menu_option relative pb-2'>PROYECTOS</li></a>
+                <a className="no-underline hover:no-underline hover:text-white" href="#contact"><li className='cursor-pointer nav_menu_option relative pb-2'>CONTACTO</li></a>
             </ul>
         </div>
         

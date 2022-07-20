@@ -9,6 +9,7 @@ import SocialMenu from './Components/SocialMenu/SocialMenu'
 import iconInstagram from "/src/Images/instagram-original.svg"
 import iconGithub from "/src/Images/github-original.svg"
 import iconLinkedin from "/src/Images/linkedin.svg"
+import ContactForm from './Components/Form/ContactForm'
 
 const App2 = () => {
   
@@ -65,13 +66,15 @@ const App2 = () => {
       <SocialMenu/>
       <div ref={menuRef} className={`hidden absolute right-0 left-0 top-24 h-screen  bg-customIndigoLight z-50 ${animation} pt-52`}>
         <ul className={`${menuActive ? "flex" : "hidden"} flex flex-col text-center text-white font-medium gap-6 text-lg w-full`}>
-          <a onClick={openMenu} href="#about"><li className='hover:border-b border-white w-fit mx-auto'>SOBRE MI</li></a>
-          <a onClick={openMenu} href="#contact"><li className='hover:border-b border-white w-fit mx-auto'>CONTACTO</li></a>
-          <a onClick={openMenu} href="#projects"><li className='hover:border-b border-white w-fit mx-auto'>PROYECTOS</li></a>
+          <a className="no-underline hover:no-underline hover:text-white" onClick={openMenu} href="#about"><li className='hover:border-b border-white w-fit mx-auto'>SOBRE MI</li></a>
+          <a className="no-underline hover:no-underline hover:text-white" onClick={openMenu} href="#contact"><li className='hover:border-b border-white w-fit mx-auto'>CONTACTO</li></a>
+          <a className="no-underline hover:no-underline hover:text-white" onClick={openMenu} href="#projects"><li className='hover:border-b border-white w-fit mx-auto'>PROYECTOS</li></a>
         </ul>
       </div>
 
-      <div className='w-2/3 flex gap-2 mx-auto justify-center py-4'>
+      <ContactForm />
+
+      <div className='hidden w-2/3 sm:flex gap-2 mx-auto justify-center py-4'>
             <div className={`bg-customIndigo w-12 h-12 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer`}>
                 
                 <a href="https://www.instagram.com/edgarbp95" target="_blank"><img src={iconInstagram} alt="" /></a>
@@ -91,6 +94,8 @@ const App2 = () => {
                 </button>
             </a>
       </div>
+
+      
 
     </>
   )

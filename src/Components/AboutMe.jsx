@@ -10,7 +10,7 @@ const AboutMe = () => {
         <img className='h-72 rounded-lg shadow-lg shadow-customIndigo sm:h-60' src={imgEdgar} alt="foto-perfil" />
       </div>
       <div className='w-3/4 sm:w-full'>
-        <h2 className='text-5xl font-bold text-customIndigoLight sm:text-3xl'>Sobre mí</h2>
+        <h2 className='text-5xl font-bold text-customIndigoLight sm:text-3xl sm:text-center'>Sobre mí</h2>
         <p className='mt-4 text-justify text-base sm:text-sm'>Me estoy formando como desarrollador Full Stack. Actualmente me dedico a crear diseños web interactivos, agradables y centrados en la buena experiencia del usuario. </p>
         <h3 className='mt-4 text-base font-medium '>Habilidades</h3>
         <p className='font-medium text-sm mt-2 tracking-wider'>HTML - CSS - JavaScript - Bootstrap - TailwindCSS - Git - React</p>
