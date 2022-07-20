@@ -166,7 +166,7 @@ const ProjectsCollection = () => {
 
         </div>
 
-        <div className='w-full overflow-x-scroll flex gap-6'>
+        <div className='hidden w-full overflow-x-scroll sm:flex gap-6'>
           {projectsArray.map((item,i)=>(
             <Project key={item.id} refe={refs.current[i]} tittle={item.title} web={item.vercel} github={item.repository} img={item.img}/>
             ))}
