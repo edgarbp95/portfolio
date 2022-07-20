@@ -40,7 +40,7 @@ const ContactForm = () => {
             <Input type="email" name="email" text="Correo" required="true"/>
             <textarea className='focus:ring-0 focus:outline-none border-gray-400 focus:border-yellow-500 text-sm h-28 text-gray-600' name="mensaje" id="mensaje" cols="320" rows="10" placeholder='Escribe tu mensaje... Gracias!'></textarea>
             <button className='sm:w-16 w-36 inline-flex items-center justify-center h-10 text-sm font-medium text-center text-white rounded-lg hover:bg-indigo-900 focus:ring-4 focus:outline-none focus:ring-indigo-300 bg-customIndigo ' type="submit">Enviar</button>
-            <input type="hidden" name="_next" value="http://127.0.0.1:5174/"/>
+            <input type="hidden" name="_next" value="https://portfolio-one-pi-29.vercel.app/"/>
             <input type="hidden" name="_captcha" value="false" />
       </form>
     </div>
