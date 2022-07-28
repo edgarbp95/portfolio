@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import ButtonHover from './ButtonHover/ButtonHover'
-import imgEdgar from "/src/Images/edgar.jpg"
+import imgEdgar from "/src/Images/edgar.jpeg"
 
 const AboutMe = () => {
 
   return (
     <div id="about" className='w-2/4 mx-auto mt-10 gap-10 flex sm:w-3/4 sm:flex-col '>
       <div className='flex flex-col w-64 sm:w-fit sm:mx-auto'>
-        <img className='h-72 rounded-lg shadow-lg shadow-customIndigo sm:h-60' src={imgEdgar} alt="foto-perfil" />
+        <img className=' rounded-lg shadow-lg shadow-customIndigo sm:h-60' src={imgEdgar} alt="foto-perfil" />
       </div>
       <div className='w-3/4 sm:w-full'>
         <h2 className='text-5xl font-bold text-customIndigoLight sm:text-3xl sm:text-center'>Sobre mí</h2>
