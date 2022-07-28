@@ -1,3 +1,10 @@
+:root{
+    --geist-page-width: 1200px;
+    --geist-page-width-with-margin: calc(var(--geist-page-width) + calc(2 * var(--geist-page-margin)));
+    --geist-page-margin: var(--geist-space-gap);
+    --geist-space-gap: 24px;
+}
+
 
 /* Navbar */
 
@@ -145,7 +152,7 @@
 
 
 .open-collection{
-  max-height: 2000px;
+  max-height: 3400px;
   transition: max-height 0.25s ease-in;
     
 }
@@ -157,13 +164,13 @@
 }
 
   @keyframes expandir {
-    0% {height: 870px;}
+    0% {height: 40%;}
     100%{height: 100%;}
   }
 
   @keyframes contraer {
-    0% {height: 100%;}
-    100%{height: 870px;}
+    0% {height: 40%;}
+    100%{height: 100%;}
   }
 
   .nav-gap{
@@ -219,4 +226,13 @@
   .stop-scrolling {
     height: 100%;
     overflow: hidden;
+}
+
+
+.clase-prueba{
+    max-width: var(--geist-page-width-with-margin);
+}
+
+.clase-prueba-2{
+    width: var(--geist-page-width-with-margin);
 }

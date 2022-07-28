@@ -40,7 +40,7 @@ const App2 = () => {
       
   return (
     <>
-    <div className='pb-20 sm:pb-10'>
+    <div className='pb-20 sm:pb-10 md:pb-0'>
       <div className='hero z-0 '>
         <Navbar openMenu={openMenu} active={menuActive ? "active" : ""}/>
         
@@ -51,13 +51,13 @@ const App2 = () => {
         </div>
       </div>
 
-      <div className='relative w-full flex flex-col gap-10 mx-auto mt-0 justify-center py-6 '>
+      <div className='relative clase-prueba-2 sm:w-3/4 flex flex-col gap-10 mx-auto mt-0 justify-center py-6 md:w-3/4 '>
         {/* <h2 className='text-5xl font-semibold text-indigo-900 z-10 text-center'>Sobre mi</h2> */}
         <AboutMe />
       </div>
     </div>
 
-        <div id='projects' className='w-full p-10 sm:p-4 '>
+        <div id='projects' className='clase-prueba-2 sm:w-5/6 mx-auto py-10 sm:p-4 md:w-5/6'>
             
             <ProjectsCollection />
 

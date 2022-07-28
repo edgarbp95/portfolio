@@ -156,8 +156,8 @@ const ProjectsCollection = () => {
   return (
     <>
       
-      <div className={`w-5/6  mx-auto mt-2 justify-center pb-32 border p-16 rounded-2xl bg-customIndigoLight relative overflow-hidden ${showCollection ? "open-collection" : "close-collection" } sm:w-full sm:py-10 sm:px-4`} ref={collectionRef}>
-        <h2 className='text-3xl font-semibold text-white z-10 text-center mb-8 tracking-widest sm:text-xl'>MIS PROYECTOS</h2>
+      <div className={`w-full  mx-auto mt-2 justify-center pb-32 border p-16 rounded-2xl bg-customIndigoLight relative overflow-hidden ${showCollection ? "open-collection" : "close-collection" } sm:w-full sm:py-10 sm:px-4`} ref={collectionRef}>
+        <h2 className='text-3xl font-semibold text-white z-10 text-center mb-8 tracking-widest sm:text-xl md:text-2xl'>MIS PROYECTOS</h2>
         <div className='project-grid gap-6 sm:gap-7 sm:hidden' >
 
           {projectsArray.map((item,i)=>(
