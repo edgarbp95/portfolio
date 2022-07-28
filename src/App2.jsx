@@ -57,7 +57,7 @@ const App2 = () => {
       </div>
     </div>
 
-        <div id='projects' className='clase-prueba-2 sm:w-5/6 mx-auto py-10 sm:p-4 md:w-5/6'>
+        <div id='projects' className='clase-prueba-2 sm:w-full mx-auto py-10 sm:p-0 md:w-5/6'>
             
             <ProjectsCollection />
 

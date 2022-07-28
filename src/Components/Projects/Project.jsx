@@ -21,7 +21,7 @@ const Project = ({tittle,web,github,img,refe}) => {
                 className="sm:w-16 inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-customIndigo rounded-lg hover:bg-indigo-900 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
                 >
                 <p className='sm:hidden md:text-xs'>Visitar sitio</p>
-                <p className='hidden sm:flex sm:mx-auto md:text-xs'>Ver</p>
+                <p className='hidden sm:flex sm:mx-auto sm:text-xs md:text-xs'>Ver</p>
                 </a>
                 <a
                 href={github}
