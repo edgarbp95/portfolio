@@ -15,7 +15,7 @@ const App2 = () => {
   
   const menuRef = useRef()
 
-  const [menuActive, setMenuActive] = useState(false)
+    const [menuActive, setMenuActive] = useState(false)
     const [animation, setAnimation] = useState("")
 
     function disableScroll() {
@@ -26,16 +26,13 @@ const App2 = () => {
       document.body.classList.remove("stop-scrolling");
     }
 
-
     const openMenu = ()=>{
-        if(!menuActive){console.log(menuRef),setAnimation("open-menu"), setMenuActive(!menuActive),disableScroll(),menuRef.current.style.display="flex";
+        if(!menuActive){setAnimation("open-menu"),setMenuActive(!menuActive),disableScroll(),menuRef.current.style.display="flex";
         }
         else{
             setAnimation("close-menu"), setMenuActive(!menuActive),enableScroll()
         }
-
-        
-      }
+    }
       
       
   return (

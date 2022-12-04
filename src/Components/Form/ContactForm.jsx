@@ -33,6 +33,8 @@ const ContactForm = () => {
     <div id="contact" className='clase-prueba-2 mx-auto py-20 sm:py-0 sm:pt-10 sm:pb-4 sm:w-5/6 md:w-5/6 md:pt-6'>
       <form onSubmit={handleSubmit} className='flex flex-col w-3/4 sm:w-full mx-auto gap-4' action="https://formsubmit.co/edgarbp95@hotmail.com" method="POST">
           <h2 className='text-5xl font-medium text-center text-customIndigo sm:text-3xl sm:font-bold pb-10 sm:pb-2 md:text-3xl'>Contactame</h2>
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_subject" value="Solicitud de contacto" />
           <div className='flex gap-2'>
             <Input type="text" name="nombre" text="Nombre"/>
             <Input type="text" name="asunto" text="Asunto"/>
