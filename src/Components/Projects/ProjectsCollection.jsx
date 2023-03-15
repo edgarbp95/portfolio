@@ -8,6 +8,13 @@ const ProjectsCollection = () => {
 
   const projectsArray = [
       {
+        id:0,
+        tittle:"Financiatodo",
+        vercel:"https://financiatodopa.com/",
+        img:"https://i.ibb.co/M8YFK0p/financiatodo.jpg",
+        repository:"https://github.com/edgarbp95/financia-todo"
+      },
+      {
         id:1,
         title:"Ecommerce React/TailwindsCSS",
         vercel:"https://ecommerce2-mu.vercel.app/",
